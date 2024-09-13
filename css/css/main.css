@@ -1,0 +1,241 @@
+@font-face {
+  font-family: Montserat;
+  src: url("../founts/Montserrat-Bold.ttf");
+  font-weight: 800;
+}
+@font-face {
+  font-family: Montserat;
+  src: url("../founts/Montserrat-Regular.ttf");
+  font-weight: 400;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserat;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1165 px;
+  margin: 0 auto;
+  margin-left: 40px;
+}
+
+.header {
+  width: 100%;
+  position: absolute;
+  padding-top: 40px;
+}
+.header__wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.header__aitems {
+  display: flex;
+  text-align: center;
+}
+.header__icons {
+  display: flex;
+  text-align: center;
+}
+.header__btns {
+  display: flex;
+  text-align: center;
+}
+.header__search {
+  margin-right: 40px;
+}
+
+.btn {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 800;
+  background-color: #156939;
+  padding: 9px 33px;
+}
+.btn_w {
+  color: #156939;
+  background-color: #fff;
+}
+
+.main__wrap {
+  display: flex;
+  gap: 77px;
+  align-items: flex-end;
+}
+.main__texts {
+  max-width: 523px;
+}
+.main__heading {
+  color: #156939;
+  font-size: 68px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+.main__text {
+  color: #2C1500;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 110px;
+}
+.main__btns {
+  display: flex;
+}
+.main__btn-titile {
+  display: flex;
+  color: gray;
+  font-style: 24px;
+  font-weight: 500;
+  margin-bottom: 9px;
+}
+.main__btn-titile_p::before {
+  content: "";
+  display: flex;
+  width: 32px;
+  height: 32px;
+  margin-right: 9px;
+}
+.main__btn-titile_n::after {
+  content: "";
+  display: flex;
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+  transform: rotate(180deg);
+}
+
+.trip {
+  padding: 142px 0;
+}
+.trip__line {
+  display: flex;
+  gap: 32px;
+}
+.trip__card {
+  padding: 16px 20px;
+  border: 1px solid #e0e0e0;
+}
+.trip__box {
+  display: flex;
+  gap: 19px;
+}
+.trip__titile {
+  color: #156939;
+  font-style: 19px;
+  font-weight: 800;
+  max-width: 108px;
+}
+.trip__text {
+  width: 236px;
+  height: 48px;
+  color: #2C1500;
+  opacity: 50%;
+  font-size: 10px;
+}
+.trip__head {
+  padding: 16px 20px;
+  border: 1px solid #e0e0e0;
+}
+.trip__plant {
+  padding: 16px 20px;
+  border: 1px solid #e0e0e0;
+}
+.trip__mony {
+  padding: 16px 20px;
+  border: 1px solid #e0e0e0;
+}
+
+.trade__title {
+  font-weight: 800;
+}
+.trade__string {
+  display: flex;
+  gap: 29px;
+}
+.trade__item {
+  display: block;
+}
+.trade__name {
+  padding-top: 19px;
+  text-align: center;
+}
+.trade__charge {
+  padding-top: 9px;
+  text-align: center;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 24px;
+  opacity: 50%;
+}
+
+.marceting {
+  margin-top: 45px;
+}
+.marceting__zagolovoc {
+  text-transform: uppercase;
+  font-weight: 800;
+  width: 522px;
+}
+.marceting__text {
+  color: #2C1500;
+  font-style: 10px;
+  font-weight: 400;
+  padding-top: 16px;
+  width: 506;
+  height: 140px;
+}
+.marceting__leaf {
+  display: flex;
+  gap: 84px;
+}
+.marceting__img {
+  padding-top: 30px;
+}
+.marceting__img2 {
+  width: 513px;
+  height: 204px;
+  margin-top: -200px;
+}
+
+.finel {
+  margin-top: 300px;
+  background-color: #F3F4F6;
+}
+.finel__line {
+  display: flex;
+}
+.finel__block {
+  display: block;
+}
+.finel__titile {
+  width: 585px;
+  padding-top: 88px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.finel__btn {
+  margin-top: 43px;
+  width: 152px;
+  height: 40px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-align: center;
+}
+.finel__img {
+  padding-left: 36px;
+}
+
+.form {
+  display: block;
+  margin-bottom: 14px;
+}
